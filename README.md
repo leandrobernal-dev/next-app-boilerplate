@@ -10,6 +10,7 @@ This is a [Next.js](https://nextjs.org/) starter app with Authentication using N
 # .env file
 
 PUBLIC_HOSTNAME=http://localhost:3000/
+NEXTAUTH_URL=http://localhost:3000/ # update in build
 NEXTAUTH_SECRET=your_next-auth_secret
 GITHUB_ID=your_app_github_id
 GITHUB_SECRET=your_app_github_secret
