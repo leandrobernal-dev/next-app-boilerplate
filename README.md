@@ -1,14 +1,27 @@
 This is a [Next.js](https://nextjs.org/) starter app with Authentication using Next-auth
+## Configuration
 
-## Getting Started
+1. Create a `.env` file in the root directory of the project.
+2. Copy the content below into the `.env` file.
+3. Replace the placeholder values with your specific configurations.
 
+```plaintext
+# .env file
 
-First, install npm dependecies:
+PUBLIC_HOSTNAME=http://localhost:3000/
+NEXTAUTH_SECRET=your_next-auth_secret
+GITHUB_ID=your_app_github_id
+GITHUB_SECRET=your_app_github_secret
+GOOGLE_CLIENT_ID=your_app_google_client_id
+GOOGLE_CLIENT_SECRET=your_app_google_client_secret
+```
+
+### Install npm dependecies:
 ```bash
 npm install
 ```
 
-Then, run the development server:
+### Then, run the development server:
 
 ```bash
 npm run dev
