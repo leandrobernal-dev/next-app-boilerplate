@@ -1,4 +1,5 @@
 This is a [Next.js](https://nextjs.org/) starter app with Authentication using Next-auth
+
 ## Configuration
 
 1. Create a `.env` file in the root directory of the project.
