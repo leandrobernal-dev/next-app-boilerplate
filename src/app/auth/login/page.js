@@ -7,14 +7,14 @@ export default function LoginPage() {
         <>
             <div className="md:hidden">
                 <Image
-                    src="/examples/authentication-light.png"
+                    src="/public/auth-background-light.jpg"
                     width={1280}
                     height={843}
                     alt="Authentication"
                     className="block dark:hidden"
                 />
                 <Image
-                    src="/examples/authentication-dark.png"
+                    src="/public/auth-background-dark.jpg"
                     width={1280}
                     height={843}
                     alt="Authentication"
