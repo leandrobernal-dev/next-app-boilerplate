@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { signOut } from "next-auth/react";
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
     }
     return (
         <main>
-            <button onClick={handleLogout}>Logout</button>
+            <Button onClick={handleLogout}>Logout</Button>
         </main>
     );
 }
